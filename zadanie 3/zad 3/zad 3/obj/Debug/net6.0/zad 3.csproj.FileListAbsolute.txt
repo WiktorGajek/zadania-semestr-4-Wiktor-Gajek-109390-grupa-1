@@ -1,0 +1,15 @@
+C:\grznanek\zad 3\zad 3\zad 3\bin\Debug\net6.0\zad 3.exe
+C:\grznanek\zad 3\zad 3\zad 3\bin\Debug\net6.0\zad 3.deps.json
+C:\grznanek\zad 3\zad 3\zad 3\bin\Debug\net6.0\zad 3.runtimeconfig.json
+C:\grznanek\zad 3\zad 3\zad 3\bin\Debug\net6.0\zad 3.dll
+C:\grznanek\zad 3\zad 3\zad 3\bin\Debug\net6.0\zad 3.pdb
+C:\grznanek\zad 3\zad 3\zad 3\obj\Debug\net6.0\zad 3.csproj.AssemblyReference.cache
+C:\grznanek\zad 3\zad 3\zad 3\obj\Debug\net6.0\zad 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\grznanek\zad 3\zad 3\zad 3\obj\Debug\net6.0\zad 3.AssemblyInfoInputs.cache
+C:\grznanek\zad 3\zad 3\zad 3\obj\Debug\net6.0\zad 3.AssemblyInfo.cs
+C:\grznanek\zad 3\zad 3\zad 3\obj\Debug\net6.0\zad 3.csproj.CoreCompileInputs.cache
+C:\grznanek\zad 3\zad 3\zad 3\obj\Debug\net6.0\zad 3.dll
+C:\grznanek\zad 3\zad 3\zad 3\obj\Debug\net6.0\refint\zad 3.dll
+C:\grznanek\zad 3\zad 3\zad 3\obj\Debug\net6.0\zad 3.pdb
+C:\grznanek\zad 3\zad 3\zad 3\obj\Debug\net6.0\zad 3.genruntimeconfig.cache
+C:\grznanek\zad 3\zad 3\zad 3\obj\Debug\net6.0\ref\zad 3.dll

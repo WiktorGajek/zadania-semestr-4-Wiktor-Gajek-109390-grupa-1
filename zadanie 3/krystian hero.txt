@@ -1,0 +1,145 @@
+using System;
+using System.Collections.Generic;
+
+class Książka
+{
+    public string Tytuł { get; set; }
+    public string Autor { get; set; }
+    public int RokWydania { get; set; }
+    public string Wydawca { get; set; }
+    public string NumerISBN { get; set; }
+    public string Gatunek { get; set; }
+    public int LiczbaDostępnychEgzemplarzy { get; set; }
+    public List<Wypożyczenie> Wypożyczenia { get; set; }
+
+    public Książka(string tytuł, string autor, int rokWydania, string wydawca, string numerISBN, string gatunek, int liczbaDostępnychEgzemplarzy)
+    {
+        Tytuł = tytuł;
+        Autor = autor;
+        RokWydania = rokWydania;
+        Wydawca = wydawca;
+        NumerISBN = numerISBN;
+        Gatunek = gatunek;
+        LiczbaDostępnychEgzemplarzy = liczbaDostępnychEgzemplarzy;
+        Wypożyczenia = new List<Wypożyczenie>();
+    }
+
+    public void Wypożycz(string wypożyczający, DateTime dataWypożyczenia, DateTime dataZwrotu)
+    {
+        if (LiczbaDostępnychEgzemplarzy > 0)
+        {
+            LiczbaDostępnychEgzemplarzy--;
+            Wypożyczenia.Add(new Wypożyczenie(wypożyczający, dataWypożyczenia, dataZwrotu));
+        }
+        else
+        {
+            Console.WriteLine("Brak dostępnych egzemplarzy tej książki.");
+        }
+    }
+}
+
+class Wypożyczenie
+{
+    public string Wypożyczający { get; set; }
+    public DateTime DataWypożyczenia { get; set; }
+    public DateTime DataZwrotu { get; set; }
+
+    public Wypożyczenie(string wypożyczający, DateTime dataWypożyczenia, DateTime dataZwrotu)
+    {
+        Wypożyczający = wypożyczający;
+        DataWypożyczenia = dataWypożyczenia;
+        DataZwrotu = dataZwrotu;
+    }
+}
+
+class Biblioteka
+{
+    public List<Książka> Inwentarz { get; set; }
+
+    public Biblioteka()
+    {
+        Inwentarz = new List<Książka>();
+    }
+
+    public void DodajKsiążkę(Książka książka)
+    {
+        Inwentarz.Add(książka);
+    }
+
+    public void UsuńKsiążkę(Książka książka)
+    {
+        Inwentarz.Remove(książka);
+    }
+
+    public void AktualizujKsiążkę(Książka książka, string nowyTytuł, string nowyAutor, int nowyRokWydania, string nowyWydawca, string nowyNumerISBN, string nowyGatunek, int nowaLiczbaDostępnychEgzemplarzy)
+    {
+        książka.Tytuł = nowyTytuł;
+        książka.Autor = nowyAutor;
+        książka.RokWydania = nowyRokWydania;
+        książka.Wydawca = nowyWydawca;
+        książka.NumerISBN = nowyNumerISBN;
+        książka.Gatunek = nowyGatunek;
+        książka.LiczbaDostępnychEgzemplarzy = nowaLiczbaDostępnychEgzemplarzy;
+    }
+
+    public List<Książka> WyszukajKsiążkiPoTytule(string tytuł)
+    {
+        return Inwentarz.FindAll(k => k.Tytuł.ToLower().Contains(tytuł.ToLower()));
+    }
+
+    public List<Książka> WyszukajKsiążkiPoAutorze(string autor)
+    {
+        return Inwentarz.FindAll(k => k.Autor.ToLower().Contains(autor.ToLower()));
+    }
+
+    public List<Książka> WyszukajKsiążkiPoGatunku(string gatunek)
+    {
+        return Inwentarz.FindAll(k => k.Gatunek.ToLower().Contains(gatunek.ToLower()));
+    }
+
+    public void PrzeglądajInwentarz()
+    {
+        foreach (var książka in Inwentarz)
+        {
+            Console.WriteLine($"Tytuł: {książka.Tytuł}, Autor: {książka.Autor}, Rok wydania: {książka.RokWydania}");
+        }
+    }
+
+    public void PrzeglądajWypożyczoneKsiążki()
+    {
+        foreach (var książka in Inwentarz)
+        {
+            foreach (var wypożyczenie in książka.Wypożyczenia)
+            {
+                Console.WriteLine($"Książka: {książka.Tytuł}, Wypożyczający: {wypożyczenie.Wypożyczający}, Data zwrotu: {wypożyczenie.DataZwrotu}");
+            }
+        }
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Biblioteka biblioteka = new Biblioteka();
+
+        Książka książka1 = new Książka("Wiedźmin", "Andrzej Sapkowski", 1993, "SuperNOWA", "9788375780635", "Fantastyka", 3);
+        Książka książka2 = new Książka("Pan Tadeusz", "Adam Mickiewicz", 1834, "Czytelnik", "9788308033686", "Epopeja", 2);
+
+        biblioteka.DodajKsiążkę(książka1);
+        biblioteka.DodajKsiążkę(książka2);
+
+        biblioteka.WypożyczKsiążkę(książka1, "Jan Kowalski", new DateTime(2023, 6, 13), new DateTime(2023, 6, 27));
+
+        List<Książka> znalezioneKsiążki = biblioteka.WyszukajKsiążkiPoAutorze("Andrzej Sapkowski");
+        foreach (var książka in znalezioneKsiążki)
+        {
+            Console.WriteLine($"Tytuł: {książka.Tytuł}, Autor: {książka.Autor}");
+        }
+
+        biblioteka.PrzeglądajInwentarz();
+        biblioteka.PrzeglądajWypożyczoneKsiążki();
+
+        Console.ReadLine();
+    }
+}
