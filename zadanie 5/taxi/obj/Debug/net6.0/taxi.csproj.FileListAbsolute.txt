@@ -1,0 +1,30 @@
+C:\grznanek\zaliczenie-Wiktor-Gajek-Marcin-Solecki-Bartosz-Makowski-main\Zaliczenie Taxi Grupa 7 Wiktor Gajek Marcin Solecki Bartosz Makowski\taxi\bin\Debug\net6.0\taxi.exe
+C:\grznanek\zaliczenie-Wiktor-Gajek-Marcin-Solecki-Bartosz-Makowski-main\Zaliczenie Taxi Grupa 7 Wiktor Gajek Marcin Solecki Bartosz Makowski\taxi\bin\Debug\net6.0\taxi.deps.json
+C:\grznanek\zaliczenie-Wiktor-Gajek-Marcin-Solecki-Bartosz-Makowski-main\Zaliczenie Taxi Grupa 7 Wiktor Gajek Marcin Solecki Bartosz Makowski\taxi\bin\Debug\net6.0\taxi.runtimeconfig.json
+C:\grznanek\zaliczenie-Wiktor-Gajek-Marcin-Solecki-Bartosz-Makowski-main\Zaliczenie Taxi Grupa 7 Wiktor Gajek Marcin Solecki Bartosz Makowski\taxi\bin\Debug\net6.0\taxi.dll
+C:\grznanek\zaliczenie-Wiktor-Gajek-Marcin-Solecki-Bartosz-Makowski-main\Zaliczenie Taxi Grupa 7 Wiktor Gajek Marcin Solecki Bartosz Makowski\taxi\bin\Debug\net6.0\taxi.pdb
+C:\grznanek\zaliczenie-Wiktor-Gajek-Marcin-Solecki-Bartosz-Makowski-main\Zaliczenie Taxi Grupa 7 Wiktor Gajek Marcin Solecki Bartosz Makowski\taxi\obj\Debug\net6.0\taxi.csproj.AssemblyReference.cache
+C:\grznanek\zaliczenie-Wiktor-Gajek-Marcin-Solecki-Bartosz-Makowski-main\Zaliczenie Taxi Grupa 7 Wiktor Gajek Marcin Solecki Bartosz Makowski\taxi\obj\Debug\net6.0\taxi.GeneratedMSBuildEditorConfig.editorconfig
+C:\grznanek\zaliczenie-Wiktor-Gajek-Marcin-Solecki-Bartosz-Makowski-main\Zaliczenie Taxi Grupa 7 Wiktor Gajek Marcin Solecki Bartosz Makowski\taxi\obj\Debug\net6.0\taxi.AssemblyInfoInputs.cache
+C:\grznanek\zaliczenie-Wiktor-Gajek-Marcin-Solecki-Bartosz-Makowski-main\Zaliczenie Taxi Grupa 7 Wiktor Gajek Marcin Solecki Bartosz Makowski\taxi\obj\Debug\net6.0\taxi.AssemblyInfo.cs
+C:\grznanek\zaliczenie-Wiktor-Gajek-Marcin-Solecki-Bartosz-Makowski-main\Zaliczenie Taxi Grupa 7 Wiktor Gajek Marcin Solecki Bartosz Makowski\taxi\obj\Debug\net6.0\taxi.csproj.CoreCompileInputs.cache
+C:\grznanek\zaliczenie-Wiktor-Gajek-Marcin-Solecki-Bartosz-Makowski-main\Zaliczenie Taxi Grupa 7 Wiktor Gajek Marcin Solecki Bartosz Makowski\taxi\obj\Debug\net6.0\taxi.dll
+C:\grznanek\zaliczenie-Wiktor-Gajek-Marcin-Solecki-Bartosz-Makowski-main\Zaliczenie Taxi Grupa 7 Wiktor Gajek Marcin Solecki Bartosz Makowski\taxi\obj\Debug\net6.0\refint\taxi.dll
+C:\grznanek\zaliczenie-Wiktor-Gajek-Marcin-Solecki-Bartosz-Makowski-main\Zaliczenie Taxi Grupa 7 Wiktor Gajek Marcin Solecki Bartosz Makowski\taxi\obj\Debug\net6.0\taxi.pdb
+C:\grznanek\zaliczenie-Wiktor-Gajek-Marcin-Solecki-Bartosz-Makowski-main\Zaliczenie Taxi Grupa 7 Wiktor Gajek Marcin Solecki Bartosz Makowski\taxi\obj\Debug\net6.0\taxi.genruntimeconfig.cache
+C:\grznanek\zaliczenie-Wiktor-Gajek-Marcin-Solecki-Bartosz-Makowski-main\Zaliczenie Taxi Grupa 7 Wiktor Gajek Marcin Solecki Bartosz Makowski\taxi\obj\Debug\net6.0\ref\taxi.dll
+C:\grznanek\zadanie 5\taxi\bin\Debug\net6.0\taxi.exe
+C:\grznanek\zadanie 5\taxi\bin\Debug\net6.0\taxi.deps.json
+C:\grznanek\zadanie 5\taxi\bin\Debug\net6.0\taxi.runtimeconfig.json
+C:\grznanek\zadanie 5\taxi\bin\Debug\net6.0\taxi.dll
+C:\grznanek\zadanie 5\taxi\bin\Debug\net6.0\taxi.pdb
+C:\grznanek\zadanie 5\taxi\obj\Debug\net6.0\taxi.csproj.AssemblyReference.cache
+C:\grznanek\zadanie 5\taxi\obj\Debug\net6.0\taxi.GeneratedMSBuildEditorConfig.editorconfig
+C:\grznanek\zadanie 5\taxi\obj\Debug\net6.0\taxi.AssemblyInfoInputs.cache
+C:\grznanek\zadanie 5\taxi\obj\Debug\net6.0\taxi.AssemblyInfo.cs
+C:\grznanek\zadanie 5\taxi\obj\Debug\net6.0\taxi.csproj.CoreCompileInputs.cache
+C:\grznanek\zadanie 5\taxi\obj\Debug\net6.0\taxi.dll
+C:\grznanek\zadanie 5\taxi\obj\Debug\net6.0\refint\taxi.dll
+C:\grznanek\zadanie 5\taxi\obj\Debug\net6.0\taxi.pdb
+C:\grznanek\zadanie 5\taxi\obj\Debug\net6.0\taxi.genruntimeconfig.cache
+C:\grznanek\zadanie 5\taxi\obj\Debug\net6.0\ref\taxi.dll
